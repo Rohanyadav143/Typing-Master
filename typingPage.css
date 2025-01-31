@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #D1913C, #FFD194);
+}
+
+#time-run{
+    display: flex;
+    align-self:self-start;
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+}
+
+#written-box{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    border-radius: 20px;
+    background-color: #FAF3E0;
+    color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#write-box{
+    background-color:  #FAF3E0;;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #333;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#reset , #home{
+    font-size: 25px;
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    font-weight: bold;
+    margin-left: 80px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#reset:hover, #home:hover{
+    transform: scale(1.1);
+    background-color: #0056b3;
+}
+
+#result{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 130px;
+    margin-bottom: 80px;
+    color: #333;
+}
+
+@media(max-width : 1100px){
+    #written-box{
+        font-size: 2.2vw;
+    }
+}
+
+@media(max-width : 930px){
+    #written-box{
+        font-size: 2.5vw;
+    }
+}
+
+@media(max-width : 800px){
+    #written-box{
+        font-size: 2.7vw;
+    }
+}
+
+@media(max-width : 720px){
+    #written-box{
+        font-size: 2.8vw;
+    }
+}
+
+@media(max-width : 650px){
+    #written-box{
+        font-size: 3vw;
+    }
+}
+
+@media(max-width : 500px){
+    #written-box{
+        font-size: 3.5vw;
+    }
+}

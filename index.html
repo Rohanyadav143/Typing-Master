@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body id = "body">
+        <form id = "main" onsubmit="startTyping(event)">
+            <span id = "heading-span">CHECK YOUR TYPING SKIIL</span>
+            <span id = "test-select">SELECT YOUR TEST</span>
+            <select id = "time">
+                <option value="3">2 Minute Test</option>
+                <option value="1">30 Second Test</option>
+                <option value="2">1 Minute Test</option>
+                <option value="4">3 Minute Test</option>
+                <option value="5">5 Minute Test</option>
+                <option value="6">10 Minute Test</option>
+            </select>
+            <select id = "type">
+                <option value="B">Medium Text</option>
+                <option value="A">Easy Text</option>
+                <option value="C">Hard Text</option>
+            </select>
+            <input type="submit" value="Start" id="submit-btn">
+        </form>
+        <script src = "index.js"></script>
+    </body>
+</html>
